@@ -27,6 +27,7 @@ import MuiBatch from './components/MuiBatch';
 import MuiList from './components/MuiList';
 import Chip from './components/MuiChip';
 import MuiTooltip from './components/MuiTooltip';
+import MuiTable from './components/MuiTable';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
   <MuiList/>
   <Chip/>
   <MuiTooltip/>
+  <MuiTable />
     <MuiBottomNavigation />
     </div>
   );
