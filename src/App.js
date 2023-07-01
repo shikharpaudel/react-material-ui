@@ -28,6 +28,8 @@ import MuiList from './components/MuiList';
 import Chip from './components/MuiChip';
 import MuiTooltip from './components/MuiTooltip';
 import MuiTable from './components/MuiTable';
+import MuiAlert from './components/MuiAlert';
+import MuiSnackBar from './components/MuiSnackBar';
 
 
 function App() {
@@ -60,6 +62,8 @@ function App() {
   <Chip/>
   <MuiTooltip/>
   <MuiTable />
+  <MuiAlert />
+  <MuiSnackBar/>
     <MuiBottomNavigation />
     </div>
   );
