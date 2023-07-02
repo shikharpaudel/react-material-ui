@@ -30,12 +30,19 @@ import MuiTooltip from './components/MuiTooltip';
 import MuiTable from './components/MuiTable';
 import MuiAlert from './components/MuiAlert';
 import MuiSnackBar from './components/MuiSnackBar';
+import MuiProgress from './components/MuiProgress';
+import MuiDailog from './components/MuiDailog';
+import MuiSkeleton from './components/MuiSkeleton';
+import MuiLoadingButton from './components/MuiLoadingButton';
 
 
 function App() {
   return (
     <div className="App">
       <MuiNavBar/>
+      <MuiSkeleton />
+      <MuiLoadingButton />
+      <MuiProgress/>
       <MuiBreadcrumbs />
       <MuiSpeedDial />
       <MuiDrawer />
@@ -64,6 +71,8 @@ function App() {
   <MuiTable />
   <MuiAlert />
   <MuiSnackBar/>
+  <MuiDailog/>
+  
     <MuiBottomNavigation />
     </div>
   );
